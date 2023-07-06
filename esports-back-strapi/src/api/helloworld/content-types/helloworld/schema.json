@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "helloworlds",
+  "info": {
+    "singularName": "helloworld",
+    "pluralName": "helloworlds",
+    "displayName": "helloworld",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helloText": {
+      "type": "string"
+    },
+    "helloImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
