@@ -4,8 +4,7 @@
   "info": {
     "singularName": "helloworld",
     "pluralName": "helloworlds",
-    "displayName": "helloworld",
-    "description": ""
+    "displayName": "helloworld"
   },
   "options": {
     "draftAndPublish": true
@@ -14,17 +13,6 @@
   "attributes": {
     "helloText": {
       "type": "string"
-    },
-    "helloImage": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
     }
   }
 }
