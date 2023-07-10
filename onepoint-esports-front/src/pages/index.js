@@ -1,7 +1,8 @@
 import * as React from "react"
 import Footer from "../components/footer"
-
 import { StaticQuery, graphql } from "gatsby"
+
+import Header from "../components/header"
 
 const query = graphql`
   query {
@@ -17,6 +18,7 @@ const query = graphql`
 
 const IndexPage = () => (
   <div>
+    <Header />
     <Footer />
   </div>
 )
