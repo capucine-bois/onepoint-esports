@@ -1,0 +1,14 @@
+auto reload front vs back
+metre le front ts
+modèles de données (jeux/évenements, équipes, joueurs(photos, nom, prénom, descriptif), actualités, message)
+installer sqlite3
+
+
+étapes de config : 
+
+- npm install côté back et front
+- .env
+- configurer le role public (users permissions + HelloWorld App)
+- advanced sttings: set public au lieu de authenticated
+- create new entry and publish it
+- côté front : laisser le .env.development tel quel et npm run develop

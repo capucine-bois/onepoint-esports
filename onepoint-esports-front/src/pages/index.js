@@ -16,6 +16,8 @@ const query = graphql`
 
 const IndexPage = () => (
   <div>
+    exemple de carré fait avec tailwind :
+    <div className="w-8 h-8 bg-red-800"></div>
     Message from strapi :
     <StaticQuery
       query={query}
