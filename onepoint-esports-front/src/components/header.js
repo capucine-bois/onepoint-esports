@@ -4,7 +4,11 @@ import logoOnepoint from "../images/onepoint_logo.png"
 const Header = ({ siteTitle }) => (
   <header className="flex w-full h-14 bg-[#041021]">
     <nav className="flex w-full h-auto justify-center items-center">
-      <img className="inline-block ml-32 m-0" src={logoOnepoint} alt="Image" />
+      <img
+        className="inline-block ml-32 m-0 w-[136px] h-[32px]"
+        src={logoOnepoint}
+        alt="Image"
+      />
       <ul className="flex h-8 w-full space-x-10 justify-center -ml-32 m-0">
         <li>
           <a
