@@ -1,6 +1,7 @@
 import * as React from "react"
-
 import { StaticQuery, graphql } from "gatsby"
+
+import Header from "../components/header"
 
 const query = graphql`
   query {
@@ -16,17 +17,7 @@ const query = graphql`
 
 const IndexPage = () => (
   <div>
-    exemple de carré fait avec tailwind :
-    <div className="w-8 h-8 bg-red-800"></div>
-    Message from strapi :
-    <StaticQuery
-      query={query}
-      render={data => (
-        <div>
-          <h1>{data.allStrapiHelloworld.edges[0].node.helloText}</h1>
-        </div>
-      )}
-    />
+    <Header />
   </div>
 )
 
