@@ -10,7 +10,6 @@ module.exports = {
         "onepoint-blue": "#0040DA",
       },
       fontFamily: {
-        custom: ["Poppins", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
     },
